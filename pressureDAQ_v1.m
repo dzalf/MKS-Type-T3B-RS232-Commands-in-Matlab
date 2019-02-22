@@ -61,12 +61,13 @@ setpointVal = setpointValuesCOM(serialOBJ,1,'DEFAULT',value)
 % 6. Read values
 buildString = buildStringQUERY(serialOBJ)
 
-plotPressure = figure;
-plotPressure.Name = 'Live Pressure Reading'
-while ishandle (plotPressure)
+% TODO
+%plotPressure = figure;
+%plotPressure.Name = 'Live Pressure Reading'
+%while ishandle (plotPressure)
 
-plotPressure(serialOBJ);
+%plotPressure(serialOBJ);
 
 
 
-end
+%end
